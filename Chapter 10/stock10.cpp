@@ -1,8 +1,8 @@
-// stock1.cpp � Stock class implementation with constructors, destructor added
+// stock1.cpp � Stock class implementation with constructors, destructor added
 #include <iostream>
 #include "stock10.h"
 
-// constructors (verbose versions)
+// constructors (생성자)
 Stock::Stock()        // default constructor
 {
     std::cout << "Default constructor called\n";
@@ -29,7 +29,7 @@ Stock::Stock(const std::string & co, long n, double pr)
     set_tot();
 }
 // class destructor
-Stock::~Stock()        // verbose class destructor
+Stock::~Stock()        // 메시지 출력
 {
     std::cout << "Bye, " << company << "!\n";
 }
@@ -97,3 +97,5 @@ void Stock::show()
     cout.setf(orig, ios_base::floatfield);
     cout.precision(prec);
 }
+
+/* 메인문 ->  usestok1.cpp 함께 컴파일*/
