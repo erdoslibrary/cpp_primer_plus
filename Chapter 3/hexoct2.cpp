@@ -10,9 +10,9 @@ int main()
 
     cout << "Monsieur cuts a striking figure!"  << endl;
     cout << "chest = " << chest << " (decimal for 42)" << endl;
-    cout << hex;      // manipulator for changing number base
+    cout << hex;      // 진법을 바꾸는 조정자
     cout << "waist = " << waist << " (hexadecimal for 42)" << endl;
-    cout << oct;      // manipulator for changing number base
+    cout << oct;      // 진법을 바꾸는 조정자
     cout << "inseam = " << inseam << " (octal for 42)" << endl;
     // cin.get();
     return 0; 

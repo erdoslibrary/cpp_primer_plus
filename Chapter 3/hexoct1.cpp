@@ -9,8 +9,8 @@ int main()
 
     cout << "Monsieur cuts a striking figure!\n";
     cout << "chest = " << chest << " (42 in decimal)\n";
-    cout << "waist = " << waist << " (0x42 in hex)\n";
-    cout << "inseam = " << inseam << " (042 in octal)\n";
+    cout << "waist = " << waist << " (0x42 in hex)\n"; // 출력은 10진수로 됨 = 66
+    cout << "inseam = " << inseam << " (042 in octal)\n"; // = 34
 	// cin.get();
     return 0; 
 }
