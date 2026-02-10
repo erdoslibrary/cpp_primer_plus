@@ -8,9 +8,9 @@ int main()
   {
     using std::cout;
     cout << "Using constructors to create new objects\n";
-    Stock stock1("NanoSmart", 12, 20.0);            // syntax 1
+    Stock stock1("NanoSmart", 12, 20.0);            // stock1 객체를 생성하고 데이터 멤버들을 주어진 값으로 초기화
     stock1.show();
-    Stock stock2 = Stock ("Boffo Objects", 2, 2.0); // syntax 2
+    Stock stock2 = Stock ("Boffo Objects", 2, 2.0); // stock2 객체를 생성하고 초기화
     stock2.show();
 
     cout << "Assigning stock1 to stock2:\n";

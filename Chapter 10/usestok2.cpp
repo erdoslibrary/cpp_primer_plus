@@ -18,11 +18,11 @@ int main()
     int st;
     for (st = 0; st < STKS; st++)
         stocks[st].show();
-// set pointer to first element
+// 첫 번째 원소에서 포인터 지정
     const Stock * top = &stocks[0];
     for (st = 1; st < STKS; st++)
         top = &top->topval(stocks[st]);
-// now top points to the most valuable holding
+// 가장 가치 있는 주식의 최고치
     std::cout << "\nMost valuable holding:\n";
 	top->show();}
     // std::cin.get();
