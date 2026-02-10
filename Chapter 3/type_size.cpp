@@ -19,5 +19,5 @@ int main() {
     int32_t fixedInt = 10; // 어떤 환경에서도 4바이트 보장
     int64_t fixedLong = 10; // 어떤 환경에서도 8바이트 보장
 
-    return 0;
+   return 0;
 }
