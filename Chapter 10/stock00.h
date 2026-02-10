@@ -12,7 +12,7 @@ private:
     long shares;
     double share_val;
     double total_val;
-    void set_tot() { total_val = shares * share_val; }
+    void set_tot() { total_val = shares * share_val; } // 인라인 함수
 public:
     void acquire(const std::string & co, long n, double pr);
     void buy(long num, double price);
