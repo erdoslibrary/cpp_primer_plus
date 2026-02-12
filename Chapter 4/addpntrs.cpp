@@ -8,7 +8,7 @@ int main()
 
 // Here are two ways to get the address of an array
     double * pw = wages;     // name of an array = address
-    short * ps = &stacks[0]; // or use address operator
+    short * ps = &stacks[0]; // 배열 원소에 주소 연산자 사용-
 // with array element
     cout << "pw = " << pw << ", *pw = " << *pw << endl;
     pw = pw + 1;
@@ -29,6 +29,9 @@ int main()
 
     cout << sizeof(wages) << " = size of wages array\n";
     cout << sizeof(pw) << " = size of pw pointer\n";
+
+    cout << sizeof(stacks) << " = size of wages array\n";
+    cout << sizeof(ps) << " = size of pw pointer\n";
     // cin.get();
     return 0; 
 }

@@ -11,8 +11,8 @@ int main()
     cin >> count;
     simon(count);   // call it again
     cout << "Done!" << endl;
-	// cin.get();
-    // cin.get();
+	cin.get();
+    cin.get();
     return 0;
 }
 

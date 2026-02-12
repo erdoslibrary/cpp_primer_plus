@@ -5,9 +5,9 @@ int main()
     using namespace std;
     cout << "What year was your house built?\n";
     int year;
-    cin >> year;
+    cin >> year; // 년도만 받고 프로그램이 바로 출력되버린다.
     // cin.get();
-    cout << "What is its street address?\n";
+    cout << "What is its street address?\n"; 
     char address[80];
     cin.getline(address, 80);
     cout << "Year built: " << year << endl;

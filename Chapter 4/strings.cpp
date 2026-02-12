@@ -17,7 +17,8 @@ int main()
     cout << strlen(name1) << " letters and is stored\n";
     cout << "in an array of " << sizeof(name1) << " bytes.\n";
     cout << "Your initial is " << name1[0] << ".\n";
-    name2[3] = '\0';                // set to null character
+    name2[3] = '\0';                // set to null character 
+	// 여기서 널이 들어가는 바람에 name2가 C++까지만 문자열로 인식된다.
     cout << "Here are the first 3 characters of my name: ";
     cout << name2 << endl;
     // cin.get();
