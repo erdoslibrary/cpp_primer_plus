@@ -11,7 +11,11 @@ int main()
             << " fish <q to terminate>.\n";
     cout << "fish #1: ";
     int i = 0;
-    while (i < Max && cin >> fish[i]) {
+    while (i < Max && cin >> fish[i]) 
+	// 숫자가 아닌게 들어와서 실패하면 while을 빠져나감.
+	// q가 아니라 다른 숫자가 아닌 것을 입력해도 cin이 종료된다.
+	// cin 은 while문 안에서 bool 타입으로 자동 변환된다.
+	{
         if (++i < Max)
             cout << "fish #" << i+1 << ": ";
     }
