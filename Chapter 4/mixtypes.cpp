@@ -18,7 +18,7 @@ int main()
     std::cout << trio->year << std::endl;
     const antarctica_years_end * arp[3] = {&s01, &s02, &s03};
     std::cout << arp[1]->year << std::endl;
-    const antarctica_years_end ** ppa = arp; 
+    const antarctica_years_end ** ppa = arp; // 여기가 좀 헷갈리는 지점
     auto ppb = arp; // C++0x automatic type deduction
 // or else use const antarctica_years_end ** ppb = arp; 
     std::cout << (*ppa)->year << std::endl;
@@ -26,3 +26,14 @@ int main()
     // std::cin.get();
     return 0;
 }
+
+
+/*
+s01 1998 
+s02 1999 
+s03
+
+print
+2003
+1999
+*/
