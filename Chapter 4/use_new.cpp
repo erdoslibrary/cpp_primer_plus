@@ -25,3 +25,12 @@ int main()
     // cin.get();
     return 0;
 }
+
+/* 출력 결과
+nights value = 1001: location 0x7ffea99a98f4
+int value = 1001: location = 0x618e17572eb0
+double value = 1e+07: location = 0x618e175732e0
+location of pointer pd: 0x7ffea99a98f8
+size of pt = 8: size of *pt = 4
+size of pd = 8: size of *pd = 8
+*/
