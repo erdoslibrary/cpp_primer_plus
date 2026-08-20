@@ -1,0 +1,49 @@
+# Compiled Object files
+*.o
+*.obj
+*.slo
+*.lo
+*.ko
+*.elf
+
+# Compiled Dynamic & Static Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.la
+*.lai
+
+# Executables & Binary Outputs
+*.out
+*.exe
+*.app
+*.bin
+*.hex
+a.out
+test
+
+# Debug symbols & Memory dumps
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+core.*
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Dependency files
+*.d
+
+# Temporary & Editor files
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
