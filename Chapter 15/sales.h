@@ -20,8 +20,8 @@ public:
     Sales(int yy, const double * gr, int n);
     virtual ~Sales() { }
     int Year() const { return year; }
-    virtual double operator[](int i) const;
-    virtual double & operator[](int i);
+    virtual double operator[](int i) const; // 읽기 전용(const로 선언된 객체 인덱싱할 때 호출)
+    virtual double & operator[](int i); // 읽기/쓰기 (const가 아닌 객체 인덱싱할 때 호출)
 private:
     double gross[MONTHS];
     int year;
